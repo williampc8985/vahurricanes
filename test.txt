@@ -1,3 +1,4 @@
 this is a test
-another line:wq
-
+instructions for working GITHUB projects with Dr. Weiss
+1. Before any work is done, be sure to run the "git pull" command from the 
+directory, in this case, the vahurricanes dir. to leave VIM use " esc:qw"
