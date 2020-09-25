@@ -20,3 +20,4 @@ y = coastline[:,1]
 #print(y)
 matplotlib.pyplot.plot(x,y)
 # the simple coastline is created for the MD,VA and NC coastal borders. 
+
