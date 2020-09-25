@@ -21,3 +21,6 @@ y = coastline[:,1]
 matplotlib.pyplot.plot(x,y)
 # the simple coastline is created for the MD,VA and NC coastal borders. 
 
+#Now I will bring in the HURDAT storms that are relevant to the area, I first 
+#process the shapefiles in GIS and export them to a .csv, I also have the 
+#data to make an attempt at programming some logic to pick and create the right #tracks and landfalls
