@@ -142,7 +142,7 @@ df_hu = df_hu[df_hu["Time"]> datetime(2020-30,1,1)]
 #plotting loop for every unique storm
 for storm_number in df_hu["Storm Number"].unique():
     storm_data = df_hu[df_hu["Storm Number"]==storm_number]
-    ax.plot(storm_data["Lon"], storm_data["Lat"], transform=data_crs)
+    ax.plot(storm_data["Lon"], storm_data["Lat"],'-k, transform=data_crs)
 
 
 # In[ ]:
